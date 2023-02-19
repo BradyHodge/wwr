@@ -19,15 +19,14 @@ header {
 
 
 nav a:hover {
-    background-color: #F2542D;
-    color: #127475;
+    color: #264653;
     border-radius: 5px;
     z-index: 0;
 }
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -56,7 +55,7 @@ footer h3 {
 }
 
 footer a {
-    color: #fcfbfb;
+    color: #ffffff;
     text-decoration: none;
     
 }
@@ -66,7 +65,7 @@ footer:hover {
 }
 
 footer {
-    background-color: #127475;
+    background-color: #264653;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -164,13 +163,13 @@ h2 {
 
 .background {
     height: 725px;
-    background-color: #0E9594;
+    background-color: #2A9D8F;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 .msg {
-    background-color: #61E8E1;
+    background-color: #2A9D8F;
     text-align: center;
     line-height: 1.5em;
     padding: 35px;
@@ -182,7 +181,7 @@ h2 {
 }
 
 .book {
-    background-color: #F2542D;
+    background-color: #EE8959;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -198,7 +197,7 @@ h2 {
 .join {
     color: #000000;
     text-decoration: none;
-    background-color: #F2542D;
+    background-color: #EE8959;
     font-size: 18px;
     padding: 5px 20px;
     margin-bottom: 50px;
@@ -241,7 +240,7 @@ h2 {
 }
 
 .card-img {
-    border: 10px solid #127475;
+    border: 10px solid #264653;
     transition: transform .5s;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
 }

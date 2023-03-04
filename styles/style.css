@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
     align-items: center;
-    font-family: 'Koulen',sans-serif;
+    font-family: 'Oswald',sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -268,15 +268,16 @@ main section img {
     object-fit: contain;
 }
 
-.summer-booking {
+.faq {
     font-size: 18px;
     padding: 10px 100px 10px;
-    background-color: #0E9594;
+    background-color: #264653;
     margin-bottom: 50px;
     border: #000000;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(83, 83, 83);
     margin: 10px 20px 10px;
+    color: #ffffff
 }
 
 .highlights {
@@ -325,23 +326,34 @@ main section img {
 }
     
 .rates {
-    background-color: #61E8E1;
+    background-color: #2a9d8f;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+    padding: 10px;
 }
 .title-rates {
-    color: #ffffff;
+    color: #000000;
+    font-family: 'Permanent Marker';
+    text-align: center;
+}
+.title-faq {
+    color: #ee8959;
     font-family: 'Permanent Marker';
     text-align: center;
 }
 .rate-content {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     margin: 10px 20px 10px 20px;
 }
 .bears {
     text-align: center;
     /*commenting to see if it updates github*/
+}
+strong {
+    color: #ee8959;
+}
+.copy {
+    color: #ee8959;
 }
 form {
     /* Center the form on the page */
@@ -421,7 +433,10 @@ form {
 .moveDown {
     margin-top: 3em;
 }
-              
+.overflow {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -463,4 +478,3 @@ form {
         margin-top: 25px;
     }
 }
-            
